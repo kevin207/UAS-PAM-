@@ -17,4 +17,5 @@ Data yang diambil berasal dari fakestori api : https://fakestoreapi.com/
 - Axios (for fetch)
 - React Navigation (for navigation)
 
-## APK Link : https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40kevin_207/test-96328da7da044c19a9b30bd1a3d69a61-signed.apk
+## APK Link : 
+https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40kevin_207/test-96328da7da044c19a9b30bd1a3d69a61-signed.apk
