@@ -15,8 +15,8 @@ const Produk = ( props ) => {
     getData();
   }, []);
 
-   function getData() {
-      axios.get(`https://fakestoreapi.com/products/category/${route.params.kategori}`).then(function (response) {
+   async function getData() {
+      await axios.get(`https://fakestoreapi.com/products/category/${route.params.kategori}`).then(function (response) {
       setProduk(response.data);
     });
   }
