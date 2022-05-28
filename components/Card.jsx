@@ -6,6 +6,7 @@ const Card = ( props) => {
   const navigation = useNavigation();
 
   return (
+    
     <TouchableOpacity style={styles.container} onPress={() => {
       navigation.navigate('Detail', {
         image: props.image,
@@ -35,9 +36,7 @@ const Card = ( props) => {
           <Text style={styles.cardTitle}>Product Price</Text>
           <Text  style={styles.cardDesc}>${props.harga}</Text>
         </View>
-
       </View>
-
     </TouchableOpacity>
   )
 }

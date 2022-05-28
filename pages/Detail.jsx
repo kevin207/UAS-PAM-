@@ -7,54 +7,54 @@ const Detail = () => {
     const route= useRoute()
     const navigation = useNavigation();
 
-  return (
+    return (
 
-    <SafeAreaView style={styles.container}>
-        <ScrollView>
-        <View style={styles.topCard}> 
-            <Image source={{ uri: route.params.image }} style={styles.cardIMage}/>
-        </View>
-
-        <View style={styles.bottomCard}>
-            <View style={styles.cardContent}>
-                <Text style={styles.cardTitle}>Product Title</Text>
-                <Text  style={styles.cardDesc}>{route.params.nama}</Text>
+        <SafeAreaView style={styles.container}>
+            <ScrollView>
+            <View style={styles.topCard}> 
+                <Image source={{ uri: route.params.image }} style={styles.cardIMage}/>
             </View>
 
-            <View style={styles.cardContent}>
-                <Text style={styles.cardTitle}>Product Category</Text>
-                <Text  style={styles.cardDesc}>{route.params.kategori}</Text>
+            <View style={styles.bottomCard}>
+                <View style={styles.cardContent}>
+                    <Text style={styles.cardTitle}>Product Title</Text>
+                    <Text  style={styles.cardDesc}>{route.params.nama}</Text>
+                </View>
+
+                <View style={styles.cardContent}>
+                    <Text style={styles.cardTitle}>Product Category</Text>
+                    <Text  style={styles.cardDesc}>{route.params.kategori}</Text>
+                </View>
+
+                <View style={styles.cardContent}>
+                    <Text style={styles.cardTitle}>Product Price</Text>
+                    <Text  style={styles.cardDesc}>${route.params.harga}</Text>
+                </View>
+
+                <View style={styles.cardContent}>
+                    <Text style={styles.cardTitle}>Deskripsi Produk</Text>
+                    <Text  style={styles.cardDesc}>{route.params.desc}</Text>
+                </View>
             </View>
 
-            <View style={styles.cardContent}>
-                <Text style={styles.cardTitle}>Product Price</Text>
-                <Text  style={styles.cardDesc}>${route.params.harga}</Text>
+            <View style={styles.btnWrap}>
+                <TouchableOpacity style={styles.btnRed}  onPress={() => navigation.goBack()}>
+                    <Text style={styles.btnText}>Kembali</Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.btn}  onPress={() => navigation.goBack()}>
+                    <Text style={styles.btnText}>Beli</Text>
+                </TouchableOpacity>
             </View>
-
-            <View style={styles.cardContent}>
-                <Text style={styles.cardTitle}>Deskripsi Produk</Text>
-                <Text  style={styles.cardDesc}>{route.params.desc}</Text>
-            </View>
-        </View>
-
-        <View style={styles.btnWrap}>
-            <TouchableOpacity style={styles.btnRed}  onPress={() => navigation.goBack()}>
-                <Text style={styles.btnText}>Kembali</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.btn}  onPress={() => navigation.goBack()}>
-                <Text style={styles.btnText}>Beli</Text>
-            </TouchableOpacity>
-        </View>
-        </ScrollView>
-     </SafeAreaView>
+            </ScrollView>
+        </SafeAreaView>
  
-  )
+    )
 }
 
 const styles = StyleSheet.create({
     container: {
-        marginTop:'15%',
+        marginTop:'20%',
         color:'black',
     },
 
