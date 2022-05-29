@@ -1,3 +1,5 @@
+#Saat Apliaksi Loading List Produk Memakan Waktu Beberapa Detik, Mohon ditunggu terimakasih
+
 # UAS-PAM
 TUGAS UAS PAM - ITERA
 
