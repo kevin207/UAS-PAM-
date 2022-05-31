@@ -5,9 +5,9 @@ TUGAS UAS PAM - ITERA
 
 ## Anggota
 - Kevin Tanuwijaya (119140207)
-- Winda Sulistyani
+- Winda Sulistyani (119140011)
 - Natalia Sagita Marisol (119140062)
-- Resya Lianti
+- Resya Lianti (119140045)
 
 ## App Description
 Aplikasi untuk menampilkan produk-produk dari data yang diambil di fakestore api, produk yang ditampilkan dapat dilihat detailnya saat card di tap/klik
