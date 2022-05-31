@@ -12,6 +12,12 @@ TUGAS UAS PAM - ITERA
 ## App Description
 Aplikasi untuk menampilkan produk-produk dari data yang diambil di fakestore api, produk yang ditampilkan dapat dilihat detailnya saat card di tap/klik
 
+## App Preview
+
+![preview1](https://user-images.githubusercontent.com/83531961/171098228-0aaacaf8-8069-4e7e-b069-9350d30e96cc.jpeg)
+![preview2](https://user-images.githubusercontent.com/83531961/171098541-2ea30b1e-a7cd-48ec-b68a-10273814ae99.jpeg)
+
+
 ## API
 Data yang diambil berasal dari fakestori api : https://fakestoreapi.com/
 
