@@ -4,7 +4,7 @@
 TUGAS UAS PAM - ITERA
 
 ## Anggota
-- Kevin Tanuwijaya
+- Kevin Tanuwijaya (119140207)
 - Winda Sulistyani
 - Natalia Sagita Marisol
 - Resya Lianti
